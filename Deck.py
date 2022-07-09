@@ -13,8 +13,8 @@ class Deck:
     
     def __init__(self):
         self.cards = list()
-        for values in range(13):
-            for suits in range(4):
+        for values in range(12):
+            for suits in range(3):
                self.cards.append(Card.Card(values,suits)) 
               
                 

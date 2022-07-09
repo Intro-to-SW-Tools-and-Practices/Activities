@@ -4,7 +4,7 @@ class BlackJack:
 
     def __init__(self):
         self.deck = Deck()
-        self.scores = {"Ace":1,"1":1, "2":2, "3":3, "4":4, "5":5, "6":6,"7":7,"8":8,"9":9,"10":10, "Jack":10, "King":10, "Queen":10}
+        self.scores = {"Ace":1, "2":2, "3":3, "4":4, "5":5, "6":6,"7":7,"8":8,"9":9,"10":10, "Jack":10, "King":10, "Queen":10}
 
     def deal(self,players=2):
         hands =[[] for p in range(players)]
