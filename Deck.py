@@ -9,10 +9,19 @@ from random import shuffle
 
 class Deck:
     
-    cards=list()
+    # ERROR CODE
+    # [] instead of list()
+    # cards=list()
+    
+    cards = []
     
     def __init__(self):
-        self.cards = list()
+
+	# ERROR CODE
+    	# [] instead of list()
+        # self.cards = list()
+        
+        self.cards = []
         
         # ERROR CODE
         # range(13) only covers values 0-12
