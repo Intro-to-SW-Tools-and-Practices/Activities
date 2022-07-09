@@ -35,7 +35,7 @@ class BlackJack:
         # If we would be above the value of 21 the value of Ace is 1, otherwise
         #  its value is 11.
         #
-        # Handle value already has Ace value in it, that's why we only do a +10
+        # handle_value already has Ace value in it, that's why we only do a +10
         #  check here.
         if ace and ((hand_value +10) <22):
             hand_value+=10
