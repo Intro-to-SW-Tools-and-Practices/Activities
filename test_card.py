@@ -1,6 +1,6 @@
 import unittest
 from Card import Card
-class Testing_Card(unittest.PascalCase):
+class Testing_Card(unittest.TestCase):
     def test_to_string(self):
         card = Card(1,1)
         self.assertEqual(type(card.to_String()), type("string"))
