@@ -23,3 +23,6 @@ class Card:
 
     def get_value(self):
         return self.values[self.value]
+
+    def get_suit(self):
+        return self.suits[self.suit]

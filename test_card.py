@@ -13,5 +13,17 @@ class Testing_Card(unittest.TestCase):
         card = Card(0,1)
         self.assertEqual(card.get_value(), "Ace")
 
+    def test_get_suit(self):
+        card = Card(1,1)
+        self.assertEqual(card.get_suit(), "hearts")
+
+    def test_get_suit2(self):
+        card = Card(0,1)
+        self.assertEqual(card.get_suit(), "hearts")
+
+    def test_get_suit3(self):
+        card = Card(0,0)
+        self.assertEqual(card.get_suit(), "spades")
+
 if __name__ == '__main__':
     unittest.main()
