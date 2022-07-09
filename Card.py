@@ -1,3 +1,4 @@
+"""Module docstring for Card.py."""
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jan 28 15:13:28 2022
@@ -6,7 +7,7 @@ Created on Fri Jan 28 15:13:28 2022
 """
 
 class Card:
-    suits = ["spades", "hearts", "diamonds","clubs"]
+    suits = ["spades","hearts","diamonds","clubs"]
     
     values = ["Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"]
     
