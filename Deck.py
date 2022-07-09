@@ -20,7 +20,7 @@ class Deck:
                 
     def display(self):
         for c in self.cards:
-            print(c.toString())
+            print(c.to_String())
                 
     def shuffle(self):
         shuffle(self.cards)

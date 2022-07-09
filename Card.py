@@ -16,7 +16,7 @@ class Card:
         self.value = v
         self.suit = s
         
-    def toString(self):
+    def to_String(self):
         return self.values[self.value] + " of " + self.suits[self.suit]
 
     def get_value(self):
