@@ -15,10 +15,10 @@ class BlackJack:
    
     def calculate_values(self,hand):
         hand_value = 0
-        ace = False
+        ace = 0
         for card in hand:
             if str(card.get_value()) =='Ace':
-                ace = True
+                ace = 1
             hand_value += self.scores[card.get_value()]
         if ace and hand_value +10 <22:
             hand_value+=10
