@@ -13,6 +13,7 @@ class Deck:
         self.cards = list()
         for values in range(12):
             for suits in range(3):
+               # Constructor
                self.cards.append(Card.Card(values,suits)) 
               
                 

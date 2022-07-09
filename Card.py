@@ -10,6 +10,8 @@ class Card:
     
     values = ["Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"]
     
+    # This defines how the class sets its values
+    # Constructor
     def __init__(self,v,s):
         assert v <= 12, "value index out of bounds"
         assert s <= 3, "suit index out of bounds"
