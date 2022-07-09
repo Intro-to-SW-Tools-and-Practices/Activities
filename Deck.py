@@ -13,7 +13,13 @@ class Deck:
     
     def __init__(self):
         self.cards = list()
-        for values in range(13):
+        
+        # ERROR CODE
+        # range(13) only covers values 0-12
+        # 13 is required for King
+        # for values in range(13):
+        
+        for values in range(14):
             for suits in range(4):
                self.cards.append(Card.Card(values,suits)) 
               
