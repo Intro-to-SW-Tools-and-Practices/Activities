@@ -1,6 +1,6 @@
 import unittest
 from Game import BlackJack 
-class Testing_Game(unittest.TestCase):
+class Testing_game(unittest.TestCase):
     def test_deal(self):
         game = BlackJack()
         hands = game.deal()
