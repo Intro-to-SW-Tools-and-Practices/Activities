@@ -8,6 +8,10 @@ class BlackJack:
 
     def deal(self,players=2):
         hands =[[] for p in range(players)]
+        #hands[0] = Player 1 hand
+        #hands[1] = Player 2 hand
+        #hands[2] = ?????????
+        # for p in range is 0 .. 1 not 0 .. 2
         for cards in range(0,2):
             for h in hands:
                 h.append(self.deck.draw())
