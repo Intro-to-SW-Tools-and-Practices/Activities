@@ -12,15 +12,8 @@ class Card:
     
     def __init__(self,v,s): 
         
-        # ERROR CODE
-        # 13 would equal King
-        # assert v <= 13, "value index out of bounds"
-        
-        # 3 would equal clubs
-        # assert s <= 3, "suit index out of bounds"
-        
-        assert v in range(14), "value index out of bounds"
-        assert s in range(4), "suit index out of bounds"
+        assert v not in range(14), "value index out of bounds"
+        assert s not in range(4), "suit index out of bounds"
         
         self.value = v
         self.suit = s
