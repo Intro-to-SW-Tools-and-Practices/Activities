@@ -25,10 +25,13 @@ class BlackJack:
         return hand_value
 
     def play(self,players):
+        self.deck.shuffle()
         hands = self.deal(players)
         i=1
         for hand in hands:
             h_value = self.calculate_values(hand)
             print("Player " +str(i) +": "+ str(h_value))
             i+=1
+
+
 
