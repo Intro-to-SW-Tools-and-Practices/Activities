@@ -3,5 +3,5 @@ from main import Main
 
 class Test_Main(unittest.TestCase):
     def test_main(self):
-        main()
+        Main()
         self.assrtEquals(True, True)
