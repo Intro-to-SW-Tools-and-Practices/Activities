@@ -9,11 +9,26 @@ from random import shuffle
 
 class Deck:
     
-    cards=list()
+    # ERROR CODE
+    # [] instead of list()
+    # cards=list()
+    
+    cards = []
     
     def __init__(self):
-        self.cards = list()
-        for values in range(13):
+
+	# ERROR CODE
+    	# [] instead of list()
+        # self.cards = list()
+        
+        self.cards = []
+        
+        # ERROR CODE
+        # range(13) only covers values 0-12
+        # 13 is required for King
+        # for values in range(13):
+        
+        for values in range(14):
             for suits in range(4):
                self.cards.append(Card.Card(values,suits)) 
               
